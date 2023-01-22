@@ -18,3 +18,4 @@ export {};
 
 let hero;
 //above is now made 'any' type, this shit sucks, so don't use it bro
+//NoImplicitAny should be there for sure!! Always remember that --
