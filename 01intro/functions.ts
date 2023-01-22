@@ -43,3 +43,13 @@ const heroes = ["thor", "mayank", "man"];
 heroes.map((hero: string): string => {
   return `hero is ${hero}`;
 });
+
+//mention the return type always!! No matter what
+function consoleError(errmsg: string): void {
+  console.log(errmsg);
+}
+
+//You are never returning anything simple as that
+function fail(msg: string): never {
+  throw new Error(msg);
+}
