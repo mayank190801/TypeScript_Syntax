@@ -26,4 +26,4 @@ class SnapChat extends TakePhoto {
   }
 }
 
-const hc = new SnapChat("Random", "gamer", "random");
+const hc = new SnapChat("Random", "gamer", 123);
