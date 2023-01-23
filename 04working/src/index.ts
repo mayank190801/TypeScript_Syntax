@@ -20,7 +20,6 @@ console.log("hello world");
 
 //some production level shit bruh
 class User {
-  //pre mention those variables, like we do in java
   readonly city: string = ""; //should be empty if not init
   constructor(public email: string, public name: string) {}
 }

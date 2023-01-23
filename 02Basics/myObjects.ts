@@ -34,19 +34,15 @@ createUser2({ name: "", email: "", isActive: false });
 type Use = {
   readonly _id: string; //no one can change it anymore
   name: string;
-  email: string;
-  isActive: boolean;
   creditCard?: number; //optional stuff, you want to add or not upto you
 };
 
 let myUser1: Use = {
   _id: "123",
   name: "mayank",
-  email: "hahah@gmail.com",
-  isActive: false,
 };
 
-myUser1.email = "random@gmail.com";
+myUser1.name = "random@gmail.com";
 // myUser1._id = "123"; //simple read only property bruh
 
 export {};
