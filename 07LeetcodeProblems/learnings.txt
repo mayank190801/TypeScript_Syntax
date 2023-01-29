@@ -1,2 +1,3 @@
 "a".charCodeAt(0);  -- finding ascii code
 String.fromCharCode(ascii_code)  -- vice versa should work in this fashion
+num = Math.floor(num / 10) --- for dividing by /10 an integer (like in java)
