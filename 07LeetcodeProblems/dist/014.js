@@ -25,8 +25,6 @@ function decodeMessage(key, message) {
                 ans + String.fromCharCode(items.get(message[i]) + "a".charCodeAt(0));
         }
     }
-    console.log(items);
-    console.log(ans);
     return ans;
 }
 console.log(decodeMessage("the quick brown fox jumps over the lazy dog", "vkbs bs t suepuv"));

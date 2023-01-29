@@ -1,0 +1,10 @@
+"a".charCodeAt(0);  -- finding ascii code
+String.fromCharCode(ascii_code)  -- vice versa should work in this fashion
+num = Math.floor(num / 10) --- for dividing by /10 an integer (like in java)
+
+
+let items = new Map() --- map data structure in javaScript
+map. set() .get() .has() .size .delete() .clear
+for (let [number, activity] of activities) {  --- for iteration purposes
+    console.log(`Activity ${number} is ${activity}`);
+}

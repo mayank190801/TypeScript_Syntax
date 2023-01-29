@@ -26,8 +26,6 @@ function decodeMessage(key: string, message: string): string {
     }
   }
 
-  console.log(items);
-  console.log(ans);
   return ans;
 }
 
