@@ -8,3 +8,26 @@ map. set() .get() .has() .size .delete() .clear
 for (let [number, activity] of activities) {  --- for iteration purposes
     console.log(`Activity ${number} is ${activity}`);
 }
+
+
+//so this is kinda string behaviour but it is what it is
+type DayOfTheWeek = "sunday" | "monday" | "tuesday" | "wednesday" | "thursday" | "friday" | "saturday";
+type DayOfTheWeekMap<T> = { [day in DayOfTheWeek]: T };
+const chores: DayOfTheWeekMap<string> = {
+    "sunday": "do the dishes",
+    "monday": "walk the dog",
+    "tuesday": "water the plants",
+    "wednesday": "take out the trash",
+    "thursday": "clean your room",
+    "friday": "mow the lawn",
+    "saturday": "relax",
+};
+
+//Some another stuff I didn't know about 
+interface IRuleKey {
+  [index: number]: number;
+}
+const temp: IRuleKey = {
+  12: 0,
+};
+console.log(temp[12]);
