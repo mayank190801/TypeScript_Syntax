@@ -31,3 +31,6 @@ const temp: IRuleKey = {
   12: 0,
 };
 console.log(temp[12]);
+
+//How to make 2d array work???
+look at the question no 018.ts  -- pretty dope shit heheh
